@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+@font-face{
+    font-family: avengers;
+    src: url(../font/AVENGEANCE\ HEROIC\ AVENGER.ttf);
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+/* body {
+  background: #1d1d1d; /* Old browsers 
+  background: -moz-linear-gradient(
+    top,
+    #1d1d1d 0%,
+    #454851 100%
+  ); /* FF3.6-15 
+  background: -webkit-linear-gradient(
+    top,
+    #1d1d1d 0%,
+    #454851 100%
+  ); /* Chrome10-25,Safari5.1-6 
+  background: linear-gradient(
+    to bottom,
+    #1d1d1d 0%,
+    #454851 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ 
+  font-family: "Raleway", sans-serif;
+} */
+
+div h1{
+    font-family: avengers, 'Times New Roman', Times, serif;
+}
+
+.img-portada {
+  grid-area: img-portada;
+  display: flex;
+  justify-content: center;
+}
+
+.sinopsis {
+  grid-area: sinopsis;
+  position: relative;
+}
+
+.header {
+  grid-area: header;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.trailer {
+  grid-area: trailer;
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  /* grid-template-columns: 350px 350px 350px; */
+  grid-template-columns: repeat(auto-fill, 1fr);
+  grid-template-areas:
+    "header  header  header"
+    "img-portada sinopsis sinopsis"
+    "trailer trailer trailer"
+    "footer  footer  footer";
+  text-decoration-color: #fff;
+  margin-top: 100px;
+  margin-left: 2rem;
+  margin-bottom: 100px;
+  margin-right: 2rem;
+}
+
+.celda {
+  background-color: rgb(100, 100, 100);
+  color: #fff;
+  border-radius: 5px;
+  padding: 50px;
+  font-size: 150%;
+}
+
+.header,
+.trailer {
+  background-color: rgb(170, 170, 170);
+}
+
+.main-list{
+    list-style: none;
+}
+
+.link{
+    /* text-decoration: none; */
+    color: #fff;
+}
+
+.img-endgame{
+    border: solid 1px red;
+    height: 300px;
+    width: 200px;
+}
+
+/* .img-endgame:hover{
+  height: 100%;
+  width: 100%;
+  transition: all 1s ease-in;
+} */
+
+.datos{
+    font-size: 70%;
+}
+
+#title{
+    padding: 10px;
+}

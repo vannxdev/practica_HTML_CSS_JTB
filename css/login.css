@@ -33,13 +33,9 @@ input[type="submit"] {
 }
 
 .container {
-  /*width: 300px;
-          border: solid 1px gray;
-          margin: 0 auto;*/
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: vh; */
 }
 
 form {

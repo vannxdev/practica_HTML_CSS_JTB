@@ -8,11 +8,11 @@
   z-index: 1;
 }
 
-.logo-container{
-    height: 50px;
-    margin-left: 1rem;
-    align-items: center;
-    padding: .7rem 0 0 0;
+.logo-container {
+  height: 50px;
+  margin-left: 1rem;
+  align-items: center;
+  padding: 0.7rem 0 0 0;
 }
 .logo {
   height: 30px;
@@ -27,7 +27,7 @@
   height: 50px;
 }
 
-.navbar-item > a{
+.navbar-item > a {
   text-decoration: none;
   color: #fff;
   padding: 1rem 3rem;
@@ -38,14 +38,14 @@
 .navbar-item > a:hover {
   color: var(--color-jet);
   background-color: #b8b8b8;
-  transition: all .5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
-.search-bar{
-  margin-top: .9rem;
+.search-bar {
+  margin-top: 0.9rem;
 }
 
-.settings-icon{
+.settings-icon {
   height: 25px;
   width: 25px;
 }
